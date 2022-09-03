@@ -9,6 +9,7 @@ public class TestInstanceOf {
        
         empleado = new Gerente("Kei", 42132, "Anchas");
         determinarTipo(empleado);
+        System.out.println("Hola Mundo");
     }
     
     public static void determinarTipo(Empleado empleado){
